@@ -27,8 +27,7 @@ class CreateEmailarchiveTable extends Migration
     /**
      * Reverse the migrations.
      *
-     * @return void
-     */
+     * @return void     */
     public function down()
     {
         Schema::dropIfExists('emailarchive');
